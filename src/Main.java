@@ -1,5 +1,9 @@
+import momento.Momento;
+import state.StatePattern;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+//        Momento.demo();
+        StatePattern.demo();
     }
 }
